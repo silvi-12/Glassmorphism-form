@@ -1,0 +1,112 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url(./img/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Poppins;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 90px 500px;
+    width: 400px;
+    height: 450px;
+    border: 1px solid (255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+h1 {
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+p {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form .text {
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    margin: 5px 60px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+form .checkbox {
+    width: 16px;
+    height: 16px;
+}
+
+form .privacy-terms {
+    padding: 10px 60px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 12px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px
+}
+
+.icons div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 50%;
+    margin: 10px;
+    transition: background 0.5s;
+}
+
+.icons div:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.facebook i {
+    padding: 0px 3px;
+}
+
+.google i {
+    padding: 0px 1px;
+}
+
+button {
+    padding: 8px 40px;
+    border-radius: 7px;
+    margin: 15px 5px;
+    margin-bottom: 0px;
+    border-color: rgba(0, 0, 0, 0.6);
+    transition: background 0.5s;
+}
+
+button:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
