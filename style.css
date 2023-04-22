@@ -1,10 +1,16 @@
 body {
     padding: 0;
     margin: 0;
+    width: 100%;
+    height: 100vh;
     background: url(./img/bg2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
@@ -12,7 +18,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 90px 500px;
+    /* margin: 90px 500px; */
     width: 400px;
     height: 450px;
     border: 1px solid (255, 255, 255, 0.3);
